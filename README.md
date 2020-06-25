@@ -46,3 +46,6 @@ all
 > Edit_auteur
 ![Sans titre 25](https://user-images.githubusercontent.com/57219106/85709980-b346a300-b6dd-11ea-801e-3027a0db6130.jpg)
 
+> featchAll_citation:id
+![Sans titre 27](https://user-images.githubusercontent.com/57219106/85710653-64e5d400-b6de-11ea-9fc5-bb057e58f96b.jpg)
+

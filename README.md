@@ -8,18 +8,11 @@ create data base in mysql
 > Name table : citation
 
 Element in Table for my database
-> id            : INT(11)
 
-> name          : VARCHAR(255)
-
-> description   : TEXT
-
-> img           :  VARCHAR(255)
-
-> category      : VARCHAR(255)
+> app_citations.sql
 
 run server 
-> localhost:3000
+>  localhost:3000
 
 Package File Node Module
 > ejs

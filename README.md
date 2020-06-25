@@ -37,6 +37,10 @@ Package File Node Module
 ![Sans titre 24](https://user-images.githubusercontent.com/57219106/85709144-dde42c00-b6dc-11ea-90ae-534a66ec27a9.jpg)
 
 all 
-> 1
+> page Home
 
 ![Sans titre 9](https://user-images.githubusercontent.com/57219106/85709533-416e5980-b6dd-11ea-9c53-6be1ca7a3ed8.png)
+
+> Edit_auteur
+![Sans titre 25](https://user-images.githubusercontent.com/57219106/85709980-b346a300-b6dd-11ea-801e-3027a0db6130.jpg)
+

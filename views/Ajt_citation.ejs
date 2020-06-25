@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title><%= title %></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+</head>
+<body>
+  <% rows.forEach(function(row){ %>
+
+<div class="container-fluid">
+  <a href="/<%= row.id_a %>/add-citation" class="btn btn-lg btn-primary float-right">Ajout citation</a><br/><br/>
+
+
+  <h1><%= title %></h1><br>
+      <div class="row mb-5">
+
+               <div class="col-3" >
+                <div class="card">
+                    <div class="card-header align-center"><h1 align="center">id :<%= row.id_a %></h1></div>
+                    <div class="card-header align-center"><h1 align="center">Citation :<%= row.id_c %></h1></div>
+                   <div class="card-body">
+
+                    <h3 class="card-text align-center" style="color: green;">Citation :<%= row.citation %></h3>
+                    <h3 class="card-text align-center" style="color: green;">Livre :<%= row.livre %></h3>
+                    <h3 class="card-text align-center" style="color: green;">creat by :<%= row.nom %> <%= row.prenom %></h3>
+                    <h3 class="card-text align-center" style="color: green;">From :<%= row.nationalite %></h3>
+
+
+
+           <a href="edit-citation/<%= row.id %>" class="btn btn-lg   btn-primary">Edit</a>
+          <a href="delete-citation/<%= row.id %>" class="btn btn-lg  btn-danger">Delete</a>
+    </div>
+    </div>
+    </div>
+
+
+ <% }); %>
+  </div>
+  </div>
+  <!-- Start footer Area -->
+  <footer class="footer-area relative" style="background: url(/img/f-bg.jpg);">
+          
+    <div class="overlay" style="background: rgba(141, 218, 6, .75);"></div>
+    <div class="container">
+      <div class="footer-content d-flex flex-column align-items-center">
+        <div class="footer-menu">
+          <a href="/">Home</a>
+          <a href="/citations">Citations</a>
+
+        </div>
+        <div class="footer-social">
+          <a href="https://github.com/Idoufkir"><i class="fa fa-github"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+        <div class="copy-right-text">Copyright &copy; 2020 All rights reserved   |  <i class="fa fa-quote-left"></i>  <a href="#">YouCode Safi </a> <i class="fa fa-quote-right"></i>  |  </div>
+      </div>
+    </div>
+</footer>
+<!-- End footer Area -->
+
+</div>  
+
+
+
+
+
+<script src="/js/vendor/jquery-2.2.4.min.js"></script>
+<script src="/https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="/js/vendor/bootstrap.min.js"></script>
+<script src="/js/jquery.ajaxchimp.min.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/jquery.nice-select.min.js"></script>
+<script src="/js/jquery.magnific-popup.min.js"></script>
+<script src="/js/main.js"></script>
+
+</body>
+</html>
+</body>
+</html>
